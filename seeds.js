@@ -1,6 +1,6 @@
 // seeds/seed.js
 const sequelize = require('../config/connection');
-const seedCategories = require('./category-seeds');
+const seedCategories = require('./models/category-seeds');
 const seedProducts = require('./product-seeds');
 const seedTags = require('./tag-seeds');
 
